@@ -1,0 +1,21 @@
+# generated data (re-create with generate_synthetic_tracks.py)
+data/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# environments
+.venv/
+venv/
+env/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NOTE: sample_outputs/ and checkpoints/ (best model + norm stats) ARE committed.

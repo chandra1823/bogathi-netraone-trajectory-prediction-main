@@ -1,0 +1,55 @@
+22:38:40 | INFO    | train | device: cpu
+22:38:42 | INFO    | dataset | tracks train/val/test = 2100/448/452  windows = 85356/9074/18035
+22:38:42 | INFO    | train | Kalman reference on val: ADE=5.468 m FDE=10.698 m
+22:38:42 | INFO    | train | model params: 323298
+22:38:53 | INFO    | train | epoch   1 | train(tf) 0.6711 | train 1.0390 | val 1.0837 | train ADE 5.842 m | val ADE 6.015 m FDE 11.420 m | lr 1.0e-03 | tf 0.50 | 8.9s  *best*
+22:39:03 | INFO    | train | epoch   2 | train(tf) 0.5025 | train 0.8993 | val 0.9499 | train ADE 5.147 m | val ADE 5.332 m FDE 10.363 m | lr 1.0e-03 | tf 0.49 | 10.4s  *best*
+22:39:12 | INFO    | train | epoch   3 | train(tf) 0.4695 | train 0.8892 | val 0.9334 | train ADE 5.086 m | val ADE 5.259 m FDE 10.322 m | lr 1.0e-03 | tf 0.48 | 8.7s  *best*
+22:39:20 | INFO    | train | epoch   4 | train(tf) 0.4631 | train 0.8546 | val 0.9048 | train ADE 4.933 m | val ADE 5.143 m FDE 10.148 m | lr 1.0e-03 | tf 0.47 | 7.9s  *best*
+22:39:28 | INFO    | train | epoch   5 | train(tf) 0.4493 | train 0.8306 | val 0.8822 | train ADE 4.817 m | val ADE 5.038 m FDE 9.815 m | lr 1.0e-03 | tf 0.46 | 7.8s  *best*
+22:39:36 | INFO    | train | epoch   6 | train(tf) 0.4504 | train 0.8355 | val 0.8881 | train ADE 4.835 m | val ADE 5.065 m FDE 10.061 m | lr 1.0e-03 | tf 0.45 | 8.5s
+22:39:45 | INFO    | train | epoch   7 | train(tf) 0.4650 | train 0.8404 | val 0.8944 | train ADE 4.858 m | val ADE 5.093 m FDE 10.101 m | lr 1.0e-03 | tf 0.44 | 8.6s
+22:39:53 | INFO    | train | epoch   8 | train(tf) 0.4615 | train 0.8199 | val 0.8769 | train ADE 4.773 m | val ADE 5.013 m FDE 9.888 m | lr 1.0e-03 | tf 0.43 | 8.5s  *best*
+22:40:02 | INFO    | train | epoch   9 | train(tf) 0.4641 | train 0.8069 | val 0.8684 | train ADE 4.718 m | val ADE 4.978 m FDE 9.780 m | lr 1.0e-03 | tf 0.42 | 9.0s  *best*
+22:40:12 | INFO    | train | epoch  10 | train(tf) 0.4476 | train 0.8030 | val 0.8690 | train ADE 4.691 m | val ADE 4.977 m FDE 9.866 m | lr 1.0e-03 | tf 0.41 | 10.1s  *best*
+22:40:21 | INFO    | train | epoch  11 | train(tf) 0.4555 | train 0.7913 | val 0.8582 | train ADE 4.642 m | val ADE 4.935 m FDE 9.665 m | lr 1.0e-03 | tf 0.40 | 8.8s  *best*
+22:40:30 | INFO    | train | epoch  12 | train(tf) 0.4444 | train 0.7750 | val 0.8419 | train ADE 4.545 m | val ADE 4.847 m FDE 9.582 m | lr 1.0e-03 | tf 0.39 | 8.6s  *best*
+22:40:39 | INFO    | train | epoch  13 | train(tf) 0.4656 | train 0.7893 | val 0.8669 | train ADE 4.621 m | val ADE 4.951 m FDE 9.824 m | lr 1.0e-03 | tf 0.38 | 9.0s
+22:40:47 | INFO    | train | epoch  14 | train(tf) 0.4776 | train 0.7735 | val 0.8359 | train ADE 4.552 m | val ADE 4.822 m FDE 9.435 m | lr 1.0e-03 | tf 0.37 | 8.7s  *best*
+22:40:57 | INFO    | train | epoch  15 | train(tf) 0.4541 | train 0.7828 | val 0.8569 | train ADE 4.591 m | val ADE 4.913 m FDE 9.636 m | lr 1.0e-03 | tf 0.36 | 9.4s
+22:41:08 | INFO    | train | epoch  16 | train(tf) 0.4604 | train 0.7672 | val 0.8436 | train ADE 4.526 m | val ADE 4.854 m FDE 9.531 m | lr 1.0e-03 | tf 0.35 | 11.2s
+22:41:17 | INFO    | train | epoch  17 | train(tf) 0.4782 | train 0.7642 | val 0.8387 | train ADE 4.508 m | val ADE 4.840 m FDE 9.583 m | lr 1.0e-03 | tf 0.34 | 8.8s
+22:41:25 | INFO    | train | epoch  18 | train(tf) 0.4793 | train 0.7611 | val 0.8302 | train ADE 4.492 m | val ADE 4.796 m FDE 9.456 m | lr 1.0e-03 | tf 0.33 | 8.6s  *best*
+22:41:34 | INFO    | train | epoch  19 | train(tf) 0.4963 | train 0.7500 | val 0.8395 | train ADE 4.450 m | val ADE 4.837 m FDE 9.525 m | lr 1.0e-03 | tf 0.32 | 8.5s
+22:41:43 | INFO    | train | epoch  20 | train(tf) 0.4969 | train 0.7525 | val 0.8288 | train ADE 4.452 m | val ADE 4.784 m FDE 9.423 m | lr 1.0e-03 | tf 0.31 | 8.8s  *best*
+22:41:53 | INFO    | train | epoch  21 | train(tf) 0.4855 | train 0.7466 | val 0.8340 | train ADE 4.422 m | val ADE 4.799 m FDE 9.442 m | lr 1.0e-03 | tf 0.30 | 10.0s
+22:42:03 | INFO    | train | epoch  22 | train(tf) 0.4981 | train 0.7499 | val 0.8331 | train ADE 4.440 m | val ADE 4.807 m FDE 9.498 m | lr 1.0e-03 | tf 0.29 | 10.2s
+22:42:13 | INFO    | train | epoch  23 | train(tf) 0.4986 | train 0.7494 | val 0.8351 | train ADE 4.444 m | val ADE 4.818 m FDE 9.516 m | lr 1.0e-03 | tf 0.28 | 10.5s
+22:42:22 | INFO    | train | epoch  24 | train(tf) 0.4965 | train 0.7550 | val 0.8322 | train ADE 4.473 m | val ADE 4.808 m FDE 9.485 m | lr 5.0e-04 | tf 0.27 | 8.8s
+22:42:32 | INFO    | train | epoch  25 | train(tf) 0.4943 | train 0.7254 | val 0.8073 | train ADE 4.339 m | val ADE 4.695 m FDE 9.192 m | lr 5.0e-04 | tf 0.26 | 9.7s  *best*
+22:42:41 | INFO    | train | epoch  26 | train(tf) 0.5012 | train 0.7348 | val 0.8142 | train ADE 4.374 m | val ADE 4.713 m FDE 9.266 m | lr 5.0e-04 | tf 0.24 | 9.3s
+22:42:51 | INFO    | train | epoch  27 | train(tf) 0.5048 | train 0.7265 | val 0.8184 | train ADE 4.326 m | val ADE 4.724 m FDE 9.270 m | lr 5.0e-04 | tf 0.23 | 9.5s
+22:43:00 | INFO    | train | epoch  28 | train(tf) 0.5174 | train 0.7275 | val 0.8087 | train ADE 4.338 m | val ADE 4.686 m FDE 9.136 m | lr 5.0e-04 | tf 0.22 | 9.9s  *best*
+22:43:10 | INFO    | train | epoch  29 | train(tf) 0.5302 | train 0.7208 | val 0.8097 | train ADE 4.306 m | val ADE 4.692 m FDE 9.211 m | lr 5.0e-04 | tf 0.21 | 9.8s
+22:43:19 | INFO    | train | epoch  30 | train(tf) 0.5313 | train 0.7127 | val 0.8056 | train ADE 4.265 m | val ADE 4.670 m FDE 9.154 m | lr 5.0e-04 | tf 0.20 | 8.8s  *best*
+22:43:28 | INFO    | train | epoch  31 | train(tf) 0.5470 | train 0.7158 | val 0.8119 | train ADE 4.286 m | val ADE 4.697 m FDE 9.254 m | lr 5.0e-04 | tf 0.19 | 8.4s
+22:43:36 | INFO    | train | epoch  32 | train(tf) 0.5523 | train 0.7161 | val 0.8211 | train ADE 4.286 m | val ADE 4.735 m FDE 9.287 m | lr 5.0e-04 | tf 0.18 | 8.4s
+22:43:44 | INFO    | train | epoch  33 | train(tf) 0.5495 | train 0.7135 | val 0.8064 | train ADE 4.271 m | val ADE 4.668 m FDE 9.159 m | lr 5.0e-04 | tf 0.17 | 8.2s  *best*
+22:43:53 | INFO    | train | epoch  34 | train(tf) 0.5428 | train 0.7094 | val 0.8061 | train ADE 4.267 m | val ADE 4.680 m FDE 9.169 m | lr 5.0e-04 | tf 0.16 | 8.9s
+22:44:02 | INFO    | train | epoch  35 | train(tf) 0.5618 | train 0.7014 | val 0.8090 | train ADE 4.222 m | val ADE 4.681 m FDE 9.196 m | lr 5.0e-04 | tf 0.15 | 9.2s
+22:44:11 | INFO    | train | epoch  36 | train(tf) 0.5776 | train 0.6994 | val 0.8058 | train ADE 4.227 m | val ADE 4.687 m FDE 9.173 m | lr 5.0e-04 | tf 0.14 | 9.0s
+22:44:20 | INFO    | train | epoch  37 | train(tf) 0.5842 | train 0.7047 | val 0.8165 | train ADE 4.247 m | val ADE 4.720 m FDE 9.236 m | lr 2.5e-04 | tf 0.13 | 8.6s
+22:44:29 | INFO    | train | epoch  38 | train(tf) 0.5752 | train 0.6879 | val 0.8034 | train ADE 4.155 m | val ADE 4.654 m FDE 9.126 m | lr 2.5e-04 | tf 0.12 | 8.8s  *best*
+22:44:37 | INFO    | train | epoch  39 | train(tf) 0.5778 | train 0.6849 | val 0.8053 | train ADE 4.145 m | val ADE 4.666 m FDE 9.141 m | lr 2.5e-04 | tf 0.11 | 8.8s
+22:44:46 | INFO    | train | epoch  40 | train(tf) 0.5940 | train 0.6865 | val 0.8007 | train ADE 4.161 m | val ADE 4.655 m FDE 9.095 m | lr 2.5e-04 | tf 0.10 | 8.6s
+22:44:55 | INFO    | train | epoch  41 | train(tf) 0.6173 | train 0.6859 | val 0.8040 | train ADE 4.154 m | val ADE 4.664 m FDE 9.146 m | lr 2.5e-04 | tf 0.09 | 8.6s
+22:45:03 | INFO    | train | epoch  42 | train(tf) 0.6000 | train 0.6809 | val 0.7996 | train ADE 4.136 m | val ADE 4.646 m FDE 9.071 m | lr 2.5e-04 | tf 0.08 | 9.0s  *best*
+22:45:14 | INFO    | train | epoch  43 | train(tf) 0.6187 | train 0.6785 | val 0.7994 | train ADE 4.119 m | val ADE 4.638 m FDE 9.058 m | lr 2.5e-04 | tf 0.07 | 10.2s  *best*
+22:45:24 | INFO    | train | epoch  44 | train(tf) 0.6328 | train 0.6765 | val 0.7951 | train ADE 4.110 m | val ADE 4.622 m FDE 9.032 m | lr 2.5e-04 | tf 0.06 | 9.9s  *best*
+22:45:33 | INFO    | train | epoch  45 | train(tf) 0.6335 | train 0.6725 | val 0.7929 | train ADE 4.098 m | val ADE 4.614 m FDE 9.030 m | lr 2.5e-04 | tf 0.05 | 9.9s  *best*
+22:45:42 | INFO    | train | epoch  46 | train(tf) 0.6467 | train 0.6720 | val 0.7941 | train ADE 4.092 m | val ADE 4.620 m FDE 9.012 m | lr 2.5e-04 | tf 0.04 | 8.6s
+22:45:51 | INFO    | train | epoch  47 | train(tf) 0.6534 | train 0.6688 | val 0.7933 | train ADE 4.080 m | val ADE 4.616 m FDE 9.001 m | lr 2.5e-04 | tf 0.03 | 8.6s
+22:45:59 | INFO    | train | epoch  48 | train(tf) 0.6680 | train 0.6719 | val 0.7951 | train ADE 4.097 m | val ADE 4.630 m FDE 9.042 m | lr 2.5e-04 | tf 0.02 | 8.5s
+22:46:08 | INFO    | train | epoch  49 | train(tf) 0.6883 | train 0.6752 | val 0.7946 | train ADE 4.113 m | val ADE 4.626 m FDE 9.018 m | lr 1.3e-04 | tf 0.01 | 8.7s
+22:46:17 | INFO    | train | epoch  50 | train(tf) 0.6762 | train 0.6627 | val 0.7962 | train ADE 4.055 m | val ADE 4.624 m FDE 9.044 m | lr 1.3e-04 | tf 0.00 | 9.0s
+22:46:17 | INFO    | train | training done in 7.6 min; best epoch 45 val ADE 4.614 m FDE 9.030 m -> checkpoints\best_model.pt

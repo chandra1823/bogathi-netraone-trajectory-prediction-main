@@ -1,0 +1,4 @@
+22:46:58 | INFO    | breach | track #104 window frames 18-25  ADE=1.69 m FDE=4.72 m
+22:46:59 | INFO    | breach | saved sample_outputs\track_104_kalman.png
+[PREDICTIVE ALERT] Target ID #104 trajectory intersects Restricted Fence in 2.5 seconds! Intercept Vector: [Angle 47°, Velocity 18.6 m/s]
+    -> predicted crossing point (x, y) = (193.5 m, 450.0 m)

@@ -1,0 +1,27 @@
+### Overall (test split: 452 tracks, 18035 windows, 8 obs → 12 pred = 4.8 s)
+
+| Model | ADE [m] | FDE [m] | Inference [ms/traj, batched] | Inference [ms/traj, single] |
+|---|---|---|---|---|
+| CV Kalman Filter | 5.007 | 9.650 | 0.0064 | 0.259 |
+| Polynomial (deg 1) | 5.194 | 9.759 | 0.0005 | 0.043 |
+| Polynomial (deg 2) | 10.253 | 22.908 | 0.0005 | 0.038 |
+| **LSTM seq2seq** | **4.329** | **8.355** | 0.0496 | 2.970 |
+
+### By entity type (ADE / FDE in metres, best in bold)
+
+| entity | N | CV Kalman Filter ADE / FDE | Polynomial (deg 1) ADE / FDE | Polynomial (deg 2) ADE / FDE | LSTM seq2seq ADE / FDE |
+|---|---|---|---|---|---|
+| drone | 4230 | 10.23 / 20.67 | 11.52 / 22.37 | 17.87 / 40.81 | **9.12 / 18.73** |
+| pedestrian | 4961 | 2.35 / 3.84 | 1.95 / 3.06 | 7.06 / 15.28 | **1.84 / 2.83** |
+| runner | 4294 | 3.57 / 6.56 | 3.45 / 6.24 | 8.49 / 18.66 | **3.13 / 5.67** |
+| vehicle | 4550 | 4.40 / 8.66 | 4.49 / 8.67 | 8.31 / 18.59 | **3.72 / 7.27** |
+
+### By behaviour (ADE / FDE in metres, best in bold)
+
+| behavior | N | CV Kalman Filter ADE / FDE | Polynomial (deg 1) ADE / FDE | Polynomial (deg 2) ADE / FDE | LSTM seq2seq ADE / FDE |
+|---|---|---|---|---|---|
+| angled_breach | 3569 | 3.12 / 5.32 | 2.88 / 4.75 | 8.39 / 18.31 | **2.86 / 4.84** |
+| direct_breach | 3698 | 3.03 / 5.12 | 2.69 / 4.38 | 8.39 / 18.26 | **2.66 / 4.38** |
+| near_miss | 3456 | 6.46 / 13.26 | 7.00 / 14.07 | 11.67 / 26.46 | **5.45 / 11.26** |
+| patrol | 3521 | 2.97 / 4.93 | 2.66 / 4.25 | 8.32 / 18.06 | **2.42 / 3.81** |
+| wander | 3791 | 9.28 / 19.24 | 10.53 / 20.92 | 14.34 / 33.03 | **8.09 / 17.11** |

@@ -1,0 +1,8 @@
+# Lower-bound pins so Colab's pre-installed CUDA torch is reused (exact local
+# versions used to produce the committed results: see requirements-lock.txt).
+torch>=2.2
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+pytest>=7.4

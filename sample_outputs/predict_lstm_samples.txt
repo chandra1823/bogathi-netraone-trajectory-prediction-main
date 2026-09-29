@@ -1,0 +1,16 @@
+22:46:52 | INFO    | breach | Target ID #444 (near_miss): no predicted breach within 4.8 s
+22:46:52 | INFO    | breach | Target ID #23 (near_miss): no predicted breach within 4.8 s
+22:46:52 | INFO    | breach | Target ID #2563 (near_miss): no predicted breach within 4.8 s
+22:46:52 | INFO    | breach | Target ID #2848 (patrol): no predicted breach within 4.8 s
+22:46:52 | INFO    | breach | Target ID #1560 (patrol): no predicted breach within 4.8 s
+22:46:53 | INFO    | breach | saved sample_outputs\forecast_grid_lstm.png
+22:46:53 | INFO    | breach | saved sample_outputs\trajectory_forecast.png
+22:46:55 | INFO    | breach | saved sample_outputs\comparison_grid.png
+[PREDICTIVE ALERT] Target ID #2818 trajectory intersects Restricted Fence in 2.9 seconds! Intercept Vector: [Angle 47°, Velocity 4.6 m/s]
+    -> predicted crossing point (x, y) = (560.2 m, 450.0 m)
+[PREDICTIVE ALERT] Target ID #952 trajectory intersects Restricted Fence in 2.9 seconds! Intercept Vector: [Angle 66°, Velocity 3.1 m/s]
+    -> predicted crossing point (x, y) = (775.7 m, 450.0 m)
+[PREDICTIVE ALERT] Target ID #174 trajectory intersects Restricted Fence in 2.5 seconds! Intercept Vector: [Angle 91°, Velocity 9.4 m/s]
+    -> predicted crossing point (x, y) = (700.5 m, 450.0 m)
+[PREDICTIVE ALERT] Target ID #938 trajectory intersects Restricted Fence in 3.0 seconds! Intercept Vector: [Angle 83°, Velocity 2.8 m/s]
+    -> predicted crossing point (x, y) = (823.1 m, 450.0 m)

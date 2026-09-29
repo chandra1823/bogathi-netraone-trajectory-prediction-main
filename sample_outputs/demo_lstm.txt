@@ -1,0 +1,30 @@
+=== LIVE DEMO: target #296 (direct_breach), model=lstm, actual crossing at t=9.2 s ===
+t=  2.8s  pos=( 647.0, 390.7)  clear
+t=  3.2s  pos=( 644.0, 395.1)  clear
+t=  3.6s  pos=( 646.3, 399.1)  clear
+t=  4.0s  pos=( 646.1, 401.5)  clear
+t=  4.4s  pos=( 646.9, 406.3)  clear
+t=  4.8s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 4.4 seconds! Intercept Vector: [Angle 91°, Velocity 9.4 m/s]
+    -> predicted crossing point (x, y) = (645.2 m, 450.0 m)
+t=  5.2s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 3.8 seconds! Intercept Vector: [Angle 91°, Velocity 9.5 m/s]
+    -> predicted crossing point (x, y) = (644.9 m, 450.0 m)
+t=  5.6s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 3.3 seconds! Intercept Vector: [Angle 89°, Velocity 9.9 m/s]
+    -> predicted crossing point (x, y) = (646.8 m, 450.0 m)
+t=  6.0s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 3.1 seconds! Intercept Vector: [Angle 86°, Velocity 9.5 m/s]
+    -> predicted crossing point (x, y) = (649.5 m, 450.0 m)
+t=  6.4s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 2.7 seconds! Intercept Vector: [Angle 87°, Velocity 9.5 m/s]
+    -> predicted crossing point (x, y) = (649.1 m, 450.0 m)
+t=  6.8s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 2.2 seconds! Intercept Vector: [Angle 86°, Velocity 9.9 m/s]
+    -> predicted crossing point (x, y) = (650.1 m, 450.0 m)
+t=  7.2s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 2.1 seconds! Intercept Vector: [Angle 87°, Velocity 9.1 m/s]
+    -> predicted crossing point (x, y) = (649.7 m, 450.0 m)
+t=  7.6s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 1.8 seconds! Intercept Vector: [Angle 84°, Velocity 8.6 m/s]
+    -> predicted crossing point (x, y) = (650.6 m, 450.0 m)
+t=  8.0s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 1.2 seconds! Intercept Vector: [Angle 88°, Velocity 9.0 m/s]
+    -> predicted crossing point (x, y) = (649.4 m, 450.0 m)
+t=  8.4s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 0.8 seconds! Intercept Vector: [Angle 90°, Velocity 9.3 m/s]
+    -> predicted crossing point (x, y) = (648.3 m, 450.0 m)
+t=  8.8s  [PREDICTIVE ALERT] Target ID #296 trajectory intersects Restricted Fence in 0.4 seconds! Intercept Vector: [Angle 85°, Velocity 9.5 m/s]
+    -> predicted crossing point (x, y) = (647.8 m, 450.0 m)
+t=  9.2s  pos=( 648.4, 450.0)  TARGET INSIDE RESTRICTED ZONE — tracking only
+=== first alert at t=4.8s, actual crossing at t=9.2s -> lead time 4.4s ===
